@@ -1,7 +1,7 @@
-                                              # Diplom_Project
+   # Diplom_Project
 Этот проект представляет собой автоматизированный тестовый фреймворк на базе pytest, selenium и allure для проверки API и UI веб-приложения Кинопоиск.
 
-                                          ## Используемые библиотеки
+  ## Используемые библиотеки
 
 * pytest
 * selenium
@@ -10,14 +10,14 @@
 * webdriver-manager
 * flake8
 
-                                           ## Возможности
+   ## Возможности
 
 * API тестирование публичного REST API
 * UI тестирование через Selenium WebDriver
 * Генерация отчетов с помощью Allure
 * Структурированная архитектура (Page Object Model)
 
-                                      ## Структура проекта
+   ## Структура проекта
   config/ │ settings.py # Настройки проекта (BASE_URL, API ключ и т.д.) │ search_page.py # PageObject для страницы поиска │ movie_page.py # PageObject для страницы фильма │ base_page.py # Базовый класс страницы
 
 tests/ │ test_api.py # API тесты │ test_ui.py # UI тесты

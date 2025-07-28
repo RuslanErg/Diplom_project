@@ -37,6 +37,11 @@ UI тесты: bash pytest tests/test_ui.py --alluredir=allure-results
 
 Для запуска в видимом режиме — закомментируйте или удалите --headless=new в conftest.py.
 
+   ## Библиотеки
+- pip install pytest
+- pip install selenium
+- pip install webdriver-manager
+
   ### Полезные ссылки
 - [Гайд по Markdown] (https://www.markdownguide.org/basic-syntax/)
 - [Генератор файлов .gitignore] (https://www.toptal.com/developers/gitignore.)

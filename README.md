@@ -42,6 +42,6 @@ UI тесты: bash pytest tests/test_ui.py --alluredir=allure-results
 - pip install selenium
 - pip install webdriver-manager
 
-  ### Полезные ссылки
+### Полезные ссылки
 - [Гайд по Markdown] (https://www.markdownguide.org/basic-syntax/)
 - [Генератор файлов .gitignore] (https://www.toptal.com/developers/gitignore.)

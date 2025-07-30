@@ -39,9 +39,14 @@ test_ui.py # UI тесты
 ### Шаги
 1. Склонировать проект - 'git clone https://github.com/RuslanErg/Diplom_project.git'
 2. Установить зависимости - 'pip3 install > -r requirements.txt'
-3. Запустить тесты - 'pytest'
+3. Запустить все тесты (UI + API) - 'python -m pytest --alluredir=allure-results 
+allure server allure-results'
+4. Запустить только UI: 'python -m pytest test/test_ui.py --alluredir=allure-results'
+5. Запустить только API: 'python -m pytest test/test_api.py --alluredir=allure-results'
+
 
 ### Полезные ссылки
 - [Гайд по Markdown] (https://www.markdownguide.org/basic-syntax/)
 - [Генератор файлов .gitignore] (https://www.toptal.com/developers/gitignore.)
 - [Про pip freez] (https://pip.pypa.io/en/stable/cli/pip_freeze/)
+

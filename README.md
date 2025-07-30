@@ -3,12 +3,12 @@
 
   ## Используемые библиотеки
 
-pytest
-selenium
-allure-pytest
-requests
-webdriver-manager
-flake8
+* pytest
+* selenium
+* allure-pytest
+* requests
+* webdriver-manager
+* flake8
 
    ## Возможности
 

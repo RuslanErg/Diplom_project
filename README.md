@@ -34,9 +34,14 @@ test_ui.py # UI тесты
 
 UI тесты: bash pytest tests/test_ui.py --alluredir=allure-results
 
+# pytest_ui_api_template
 
-Для запуска в видимом режиме — закомментируйте или удалите --headless=new в conftest.py.
+## Шаблон для автоматизации тестирования на python
 
+### Шаги
+1. Склонировать проект - 'git clone https://github.com/RuslanErg/Diplom_project.git'
+2. Установить зависимости - 'pip3 install > -r requirements.txt'
+3. Запустить тесты - 'pytest'
 
 ### Полезные ссылки
 - [Гайд по Markdown] (https://www.markdownguide.org/basic-syntax/)
